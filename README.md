@@ -11,3 +11,21 @@ http://thekeesh.com/hellobrowsernpm/oldway.html
 ## The New Way
 
 http://thekeesh.com/hellobrowsernpm/newway.html
+
+
+
+
+### index.html
+
+    <h1>Simple Web Page</h1>
+    <script src=”simplebundle.js”></script>
+
+### main.js
+
+    var repeat = require(‘repeat-string’);
+    console.log(repeat(‘hey’, 100));
+    document.write(repeat(‘hey’, 10));
+
+### watchify command
+
+    $ watchify main.js -o simplebundle.js

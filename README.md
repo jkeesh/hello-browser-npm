@@ -26,6 +26,10 @@ http://thekeesh.com/hellobrowsernpm/newway.html
     console.log(repeat(‘hey’, 100));
     document.write(repeat(‘hey’, 10));
 
+### npm command
+
+    $ npm install repeat-string
+
 ### watchify command
 
     $ watchify main.js -o simplebundle.js

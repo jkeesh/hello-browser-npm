@@ -12,8 +12,7 @@ http://thekeesh.com/hellobrowsernpm/oldway.html
 
 http://thekeesh.com/hellobrowsernpm/newway.html
 
-
-
+## New Way Hello World Quickstart
 
 ### index.html
 
